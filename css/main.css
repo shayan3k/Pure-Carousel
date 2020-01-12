@@ -1,0 +1,40 @@
+:root {
+  --main-text-color: #eee;
+  --main-text-color-dark: rgba(238, 238, 238, 0.842);
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.front-hero {
+  /* background: url("../images/hero.jpg") center/cover no-repeat; */
+  height: 100vh;
+}
+
+.fa-bars {
+  color: var(--main-text-color) !important;
+  font-weight: bold;
+}
+
+.t-white {
+  color: var(--main-text-color) !important;
+  font: white;
+  font-weight: bold;
+}
+
+.t-whiteDarker {
+  color: var(--main-text-color-dark) !important;
+}
+
+.navbar {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 5rem !important;
+  z-index: 1;
+}
+.carousel-item {
+  height: 100vh;
+}
